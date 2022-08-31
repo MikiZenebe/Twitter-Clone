@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: background: linear-gradient(to right, #4884ee 0%, #06bcfb 100%);
+    /* --twitter-background: linear-gradient(to right, #DEE4EA 0%,#F9FCFF 100%);
+    --twitter-color: linear-gradient(to right, #4884EE 0%,#06BCFB 100%); */
+    font-family: 'Noto Sans', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-image: linear-gradient(to right, #DEE4EA 0%,#F9FCFF 100%); */
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}

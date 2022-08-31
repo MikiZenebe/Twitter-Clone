@@ -1,0 +1,25 @@
+.sideOption{
+   display: flex;
+   align-items: center;
+cursor: pointer;
+padding: 15px;
+
+}
+
+.sideOption:hover{
+    background: linear-gradient(to right, #6d9ff7 0%,#99def5 100%);
+    border-radius: 30px;
+    color: white;
+    transition: color 100ms ease-out;
+}
+
+.sideOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.sideOption--active{
+    color: var(--twitter-color);
+}
+

@@ -1,0 +1,34 @@
+.feed {
+    flex: 0.4;
+    border-right: 1px solid #e2e2e2;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+/* Hide Scrollbar for chrome, safari and opera */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide Scrollbar for IE, Edge and Firefox */
+.feed {
+    -ms-overflow-style: none;
+    /* IE and Edge*/
+    scrollbar-width: none;
+    /* Firefox*/
+}
+
+.feed__header {
+    position: relative;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid #e2e2e2;
+    padding: 15px 20px;
+}
+
+.feed__header>h2 {
+    font-size: 20px;
+    font-weight: 800;
+
+}
